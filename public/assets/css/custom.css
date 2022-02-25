@@ -1,0 +1,75 @@
+.avatar {
+   background: #8bc34a no-repeat center/cover !important;
+}
+.bg-danger {
+   background-color: #f44336 !important;
+}
+.card-text-custom {
+   margin-bottom: 3px;
+}
+.card-text-custom-last {
+   margin-bottom: 1em;
+}
+.ci-effect-2 a {
+   overflow: hidden
+}
+.ci-effect-2 a span {
+   position: relative;
+   display: inline-block;
+}
+.ci-effect-2 a span:before {
+   position: absolute;
+   top: 100%;
+   font-weight: 700;
+}
+.ci-effect-2 a:hover span, .ci-effect-2 a:focus span {
+   font-weight: 700;
+}
+
+/* notif */
+
+.notif-wrapper {
+   position: absolute;
+   z-index: 999999;
+}
+.notif {
+   float: right;
+   position: fixed;
+   right: 35px;
+   top: 50px;
+   min-width: 310px;
+}
+.notif .card {
+   border: 1px solid #a0a7a142;
+}
+.notif .card-header {
+   padding: .75rem 1.25rem !important;
+}
+.notif .card-body {
+   padding: 5px 20px 20px 20px !important;
+}
+.fade-enter-active, .fade-leave-active {
+   transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+   opacity: 0;
+}
+@media only screen and (max-width: 992px) {
+   .notif {
+      right: 35px !important;
+   }
+}
+@media only screen and (max-width: 768px) {
+   .notif {
+      right: 15px !important;
+      top: 55px !important;
+   }
+   .header-top-container {
+      max-width: 100% !important;
+   }
+}
+@media screen and (device-width: 768px) {
+   .notif {
+      right: 35px !important;
+   }
+}
